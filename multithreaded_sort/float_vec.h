@@ -1,6 +1,3 @@
-// Author: Nat Tuck
-// CS3650 starter code
-
 #ifndef FLOAT_VEC_H
 #define FLOAT_VEC_H
 

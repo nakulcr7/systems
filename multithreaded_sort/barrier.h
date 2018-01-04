@@ -1,6 +1,3 @@
-// Author: Nat Tuck
-// CS3650 starter code
-
 #ifndef BARRIER_H
 #define BARRIER_H
 

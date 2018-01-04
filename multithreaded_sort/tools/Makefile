@@ -1,7 +1,3 @@
-# Author: Nat Tuck
-# 3650 starter code
-# don't change this file
-
 SRCS := $(wildcard *.c)
 BINS := $(SRCS:.c=)
 

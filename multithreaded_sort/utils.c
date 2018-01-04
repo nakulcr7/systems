@@ -1,6 +1,3 @@
-// Author: Nat Tuck
-// CS3650 starter code
-
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/time.h>

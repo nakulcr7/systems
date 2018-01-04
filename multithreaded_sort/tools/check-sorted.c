@@ -1,7 +1,3 @@
-// Author: Nat Tuck
-// 3650 starter code
-// don't change this file
-
 #include <stdio.h>
 #include <assert.h>
 
