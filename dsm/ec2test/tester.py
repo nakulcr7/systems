@@ -104,11 +104,11 @@ class EC2Cloud():
         self.key_pair = None
         self.key_name = "id_rsa.pub"
         self.security_group_name = None
-        self.security_group = None # This is a security group object, which boto uses
+        self.security_group = None  # This is a security group object, which boto uses
         self.region = None
         self.instances = []
 
-        self.key_pair = ("AKIAIUG2VHAF3BKOO7IQ","AYlLG5+QObC60HRbqZqxIEOlVIcMQ1I6bGvDYFSM") 
+        self.key_pair = ("dummy", "dummy")  # Replace with AWS keypair
         self.security_group_name = "launch-wizard-1"
         self.region = "us-east-1"
 
