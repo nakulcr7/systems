@@ -4,6 +4,7 @@ This repo has programs I wrote as a grad student and TA of the Computer Systems 
 
 ## Contents
 
+- Userspace Distribted Shared Memory for Linux
 - Multithreaded quicksort
 - High-performance memory allocator that is optimally faster than the system allocator
 - `ext`-based FUSE filesystem
