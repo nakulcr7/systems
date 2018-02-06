@@ -28,16 +28,14 @@ Run `make all` and `make test` to build and test.
 
 ## Results
 
-+---------+----------+----------+----------+----------+----------+----------+
-|         | Par-Ivec | Sys-Ivec | sim-Ivec | Par-List | Sys-List | sim-List |
-+---------+----------+----------+----------+----------+----------+----------+
+|         | Par-Ivec | Sys-Ivec | Sim-Ivec | Par-List | Sys-List | Sim-List |
+| ------- | -------- | -------- | -------- | -------- | -------- | -------- |
 |    1000 |    0.005 |    0.008 | 0.055    |    0.023 |    0.011 | 1.127    |
 |    5000 |    0.027 |    0.031 | 1.351    |    0.082 |    0.054 | 48.615   |
 |   50000 |    0.137 |    0.196 | 3m37.653 |    0.817 |    0.398 | 5m+      |
 |  100000 |    0.294 |    0.356 | 5m+      |    1.632 |    0.720 | 5m+      |
 |  500000 |    1.725 |    1.848 | 5m+      |    8.216 |    3.659 | 5m+      |
 | 1000000 |    3.923 |    4.361 | 5m+      |   17.909 |    7.477 | 5m+      |
-+---------+----------+----------+----------+----------+----------+----------+
 
 - The allocator is significantly faster than the system when using the list data structure. This is expected because the segregated lists are heavily utilized as the main program requests memory mostly of specific sizes: `16` and `24`.
 
